@@ -1,0 +1,47 @@
+/* 전체 레이아웃 스타일 */
+.pageContainer {
+    display: flex;
+    width: 960px;
+    height: 860px;
+  }
+  
+  /* 채팅창 스타일 */
+  .chatBox {
+    width: 320px;
+    height: 840px;
+    background-color: #111; /* 짙은 회색 */
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 4px solid #000;
+    color:#aaa;
+  }
+  
+  /* 캔버스와 상단 박스 컨테이너 */
+  .canvasContainer {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 860px;
+  }
+  
+  /* 캔버스 상단 박스 스타일 */
+  .topBox {
+    width: 640px;
+    height: 200px;
+    background-color: #111; /* 짙은 회색 */
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #000;
+    color:#aaa;
+    
+  }
+  .topBox > * {
+    padding-right: 10px; /* 각 요소의 아래쪽에 20px의 패딩 추가 */
+  }
+  
+  /* 캔버스 스타일 */
+  .canvas {
+    width: 640px;
+    height: 640px;    
+  }
+  

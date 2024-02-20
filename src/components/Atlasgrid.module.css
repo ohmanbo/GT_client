@@ -1,0 +1,34 @@
+/* 전체 레이아웃 스타일 */
+.pageContainer {
+    display: flex;
+    width: 960px;
+    height: 960px;
+  }
+  
+  /* 채팅창 스타일 */
+  .chatBox {
+    width: 320px;
+    height: 960px;
+    background-color: #333; /* 짙은 회색 */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* 캔버스와 상단 박스 컨테이너 */
+  .canvasContainer {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 960px;
+  }
+  
+  /* 캔버스 상단 박스 스타일 */
+  .topBox {
+    width: 640px;
+    height: 320px;
+    background-color: #333; /* 짙은 회색 */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  
