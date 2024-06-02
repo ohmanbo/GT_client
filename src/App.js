@@ -12,8 +12,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
     <Routes>
-      <Route path="/" element={<Atlasgrid/>}/>
-      <Route path="/About" element={<About/>}/>
+      <Route path="/atlas/" element={<Atlasgrid/>}/>
+      <Route path="/about/" element={<About/>}/>
       
     </Routes>
     </BrowserRouter>

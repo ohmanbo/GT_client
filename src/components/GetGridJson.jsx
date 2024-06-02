@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 function LoadJson({ onDataLoaded }) {
   useEffect(() => {
     const fetchData = () => {
-      fetch('http://127.0.0.1:8000/atlasgrid/monitor/?what=gridinfo', {
+      fetch('http://127.0.0.1:8001/atlasgrid/monitor/?what=gridinfo', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
